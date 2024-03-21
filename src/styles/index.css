@@ -1,12 +1,35 @@
+.navbar {
+  background-color: #494949;
+}
+.navbar .navbar-brand,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+.navbar-toggler span {
+  color: #ff0000;
+}
+.j-card {
+  background-color: #c1d9f0;
+  margin: 10px;
+  height: 400px;
+}
+.j-title {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
-/* 
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.card {
+  margin: 10px;
+  padding: 10px;
+}
